@@ -1,0 +1,251 @@
+@font-face {
+  font-family: 'custom';
+  src: url('/css/ethnocentric\ rg.woff2') format('woff2');
+}
+@media only screen and (max-width: 1024px){
+.banner-overlay{
+  padding: 0 !important;
+  overflow: auto;
+}
+.info{
+  flex-direction: column;
+}
+.info-center{
+  border-left: none !important;
+  border-right: none !important;
+}
+.info > div, .info > a{
+  margin: 40px 0;
+  height: auto !important;
+}
+.info-text{
+  width: 90% !important;
+  justify-content: center;
+}
+.standort-container{
+  width: 100%;
+}
+.standort-banner{
+  width: 100%;
+  height: auto !important;
+}
+.navbar-navigation-menu{
+  display: none;
+}
+.logo-container-center{
+  margin-top: 1.5em;
+}
+
+.logo-container-center > img{
+ display: none !important;
+}
+.logo-container{
+  flex-direction: column;
+  height: 300px;
+  width: 100%;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  box-shadow: -2px 4px 25px #4e805d;
+  position: relative;
+}
+.logo-container-center h1{
+  text-align: center;
+  font-size: 1.4rem;
+}
+.navbar-logo{
+  margin-left: 0 !important;
+}
+.logo-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.logo-text-big-mobil{
+  color: #4e805d !important;
+  font-size: 2rem;
+  font-family: custom;
+}
+.logo-text-small-mobil{
+  font-size: 14px;
+  color: #ddd;
+}
+.rest-product{
+  font-size: 1rem;
+  margin-top: 0 !important;
+}
+.slider{
+  width: 100% !important;
+  border: 10px solid #222 !important;
+}
+.mobil-navigation {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 100vh;
+  background-color: #fff;
+  position: absolute;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+  margin-left: -2000px;
+}
+.mobil-menu-handle {
+  margin-left: 0;
+  transition: all 0.5s ease;
+}
+.mobil-navigation ul {
+  list-style: none;
+  padding: 20px;
+}
+.mobil-navigation > ul > li {
+  display: flex;
+  align-items: center;
+  height: 34px;
+  margin: 5px 0;
+}
+.mobil-logo-container-mobil {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  background-color: #f8ba00;
+}
+.mobil-logo-container-mobil > .logo-text > .logo-text-big-mobil {
+  color: #fff;
+}
+.mobil-navigation-icon {
+  display: block !important;
+  width: 26px;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  cursor: pointer;
+  z-index: 3;
+}
+.mobil-navigation-icon > div {
+  width: 100%;
+  height: 4px;
+  border-radius: 4px;
+  background-color: #fff;
+  margin: 3px 0;
+}
+.mobil-logo-container-mobil{
+  background-color: #222;
+}
+.mobil-icons{
+  margin-right: 10px;
+  margin-top: 5px;
+  color: red;
+}
+.banner-center{
+  margin-top: 100px;
+}
+.banner-sub-title{
+  font-size: 1.4rem;
+}
+.logo-container-center span{
+  margin:0 10px !important;
+}
+.banner-title{
+  font-size: 2.4rem;
+}
+.banner-text{
+  width: 100%;
+  padding: 20px;
+}
+.navbar{
+  display: none;
+}
+.services-title, .galerie-title, .products-title, .contact-title, .price-title{
+  text-align: center;
+}
+.services{
+  height: auto;
+}
+.services-container, .products-container{
+  padding: 0 30px !important;
+}
+.services-top-text, .products-top-text{
+  width: 90%;
+}
+.galerie-container{
+  flex-direction: column;
+}
+.price-overlay, .galerie-overlay, .products, .contact, .services{
+  padding-top: 5em  !important;
+}
+.services-items, .products-items{
+  width: 100%;
+  margin: 20px 0 !important;
+}
+.price-list{
+  width: 90%;
+}
+.price-items, .price-unit{
+  font-size: 1rem;
+}
+.contact-form{
+  width: 80% !important;
+}
+.contact-title{
+  font-size: 3rem;
+}
+.contact > form > textarea{
+  height: 8em;
+}
+.footer-overlay{
+  height: auto;
+  padding: 20px !important;
+}
+.footer-container{
+  flex-direction: column;
+}
+.footer-text{
+  display: none;
+}
+.footer-info-container{
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 200px;
+}
+.standort{
+  width: 100% !important;
+}
+.mobil-nav-list{
+  height: 46px !important;
+  border-top: 1px solid #ccc !important;
+}
+.mobil-links{
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  font-size: 1.2rem;
+  color: #333;
+}
+.mobil-icons{
+  margin-bottom: 5px;
+}
+.artical-container > span {
+  font-size: 0.9rem !important;
+}
+}
+@media only screen and (min-width: 1024px) and (max-width: 1860px){
+  .services-container, .products-container{
+    padding: 0 50px !important;
+    justify-content: center;
+  }
+  .services-items, .products-items{
+    margin: 0 10px !important;
+  }
+  .services-sub-title{
+    font-size: 1.3rem !important;
+  }
+}
