@@ -1,0 +1,25 @@
+# Mr.Mirza Coiffeur | Premium Barber PWA
+
+A high-end, responsive Progressive Web App (PWA) designed for a professional hair salon in Switzerland. This project focuses on high visual impact, smooth user experience, and robust performance.
+
+## 📱 Progressive Web App (PWA) Features
+* **Fully Installable:** Cross-platform support for "Add to Home Screen" on iOS and Android via `manifest.json`.
+* **Themed Experience:** Custom status bar and theme colors integrated for a native app-like feel.
+* **Offline Readiness:** Designed to provide a reliable experience for returning users.
+
+## 🚀 Key Features
+* **Dynamic Gallery:** Implemented **Swiper.js** for a modern, touch-enabled thumbnail-synced gallery.
+* **Interactive UI:** Smooth scroll animations using **ScrollReveal.js** and icon integration via **BoxIcons**.
+* **Resource Optimization:** All images converted to `.webp`, utilizing `loading="lazy"` and `preload` for critical CSS to minimize LCP.
+* **Semantic & Accessible:** 100% compliant with ARIA standards, ensuring the price list and contact forms are accessible to everyone.
+
+## 🛠 Technical Implementation
+* **Critical CSS & Resource Hinting:** Utilized `rel="preload"` for styles and fonts to eliminate render-blocking issues.
+* **Modular JavaScript:** Organized logic for mobile navigation, scroll-to-top functionality, and Swiper initialization.
+* **SEO Mastery:** Structured with localized meta tags (German) and descriptive keywords to dominate local search results.
+* **Zero-Framework Performance:** Built with pure HTML5, CSS3, and Vanilla JS to maintain a lightweight footprint and near-instant load times.
+
+## 💻 Tech Stack
+* **Frontend:** HTML5, CSS3, Vanilla JavaScript
+* **PWA:** Web App Manifest
+* **Libraries:** Swiper.js (Gallery), ScrollReveal (Animations), BoxIcons
